@@ -1,4 +1,4 @@
-name: The only workflow
+name: Action
 on:
     push
 jobs:
