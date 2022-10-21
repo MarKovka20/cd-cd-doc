@@ -9,4 +9,13 @@ jobs:
             -
                 name: Pull repo
                 uses: actions/checkout@v3
-                
+            - 
+                name: Pull other public repo
+                uses: actions/checkout@v3
+                with:
+                    repository: MarKovka20/cd-cd-doc
+                    path: "otherpath"
+            -
+                name: List files
+                run: |
+                    ls -la otherpath
