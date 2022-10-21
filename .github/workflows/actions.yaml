@@ -1,0 +1,12 @@
+name: The only workflow
+on:
+    push
+jobs:
+    idle:
+        name: The only job
+        runs-on: ubuntu-latest
+        steps:
+            -
+                name: Pull repo
+                uses: actions/checkout@v3
+                
