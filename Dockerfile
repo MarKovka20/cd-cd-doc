@@ -5,4 +5,4 @@ RUN echo "echo START" >> /app/script.sh
 RUN echo "sleep 10" >> /app/script.sh
 RUN echo "echo FINISH" >> /app/script.sh
 
-ENTRYPOINT ["bash", "-c", "/app/script.sh"]
+ENTRYPOINT ["bash", "/app/script.sh"]
