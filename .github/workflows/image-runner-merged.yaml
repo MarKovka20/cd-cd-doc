@@ -1,0 +1,20 @@
+name: Image runner merged
+on:
+    push
+jobs:
+    image_building:
+        name: The only job
+        runs-on: ubuntu-latest
+        steps:
+            -
+                name: Pull repo
+                uses: actions/checkout@v3
+            -
+                name: Build image
+                run: docker build -t my_image .
+            -
+                name: List docker images
+                run: docker images       
+            -
+                name: Run the docker image
+                run: docker run --rm -t my_image
