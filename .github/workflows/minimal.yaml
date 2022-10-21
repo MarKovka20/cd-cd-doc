@@ -1,2 +1,10 @@
-
-                
+on:
+    push
+jobs:
+    idle:
+        runs-on: ubuntu-latest
+        steps:
+            -
+                run: echo Idle Step 1
+            -
+                run: echo Idle Step 2
