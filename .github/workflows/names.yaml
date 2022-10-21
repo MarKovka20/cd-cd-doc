@@ -1,3 +1,4 @@
+name: The only workflow
 on:
     push
 jobs:
