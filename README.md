@@ -12,13 +12,15 @@ The programm can parse and calculate different mathematical expressions.
 - to calculate simple mathematical expression just type it
 - to use variables you need to set them first
 - to set variables you need to type "let [variable_name] = [value];"
-- [variable_name] can be only one (lowercase or uppercase) letter (but not "p" or "s" as it is already in list of arithmetic operations)
+- [variable_name] can be only one (lowercase or uppercase) letter (but not "p", "s" or "q" as it is already in list of arithmetic operations or used for service)
 - to change variable value use "let [variable_name] = [value];" again
+- to exit the programm type "q"
 
 ## Some examples of usage:
 
-![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/pictures/programm%20work%201.png)
-![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/pictures/programm%20work%202.png)
-![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/pictures/programm%20work%203.png)
-![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/pictures/programm%20work%204.png)
-![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/pictures/programm%20work%205.png)
+![alt text](https://github.com/Viroslav/SFE/blob/main/FSE_project/pictures/programm%20work%201.png)
+![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/FSE_project/pictures/programm%20work%202.png)
+![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/FSE_project/pictures/programm%20work%203.png)
+![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/FSE_project/pictures/programm%20work%204.png)
+![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/FSE_project/pictures/programm%20work%205.png)
+![alt text](https://github.com/MarKovka20/cd-cd-doc/blob/main/FSE_project/pictures/programm%20work%206.png)
