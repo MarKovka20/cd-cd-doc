@@ -12,7 +12,7 @@ The programm can parse and calculate different mathematical expressions.
 - to calculate simple mathematical expression just type it
 - to use variables you need to set them first
 - to set variables you need to type "let [variable_name] = [value];"
-- *variable_name* can be only one (lowercase or uppercase) letter (but not "p" or "s" as it is already in list of arithmetic operations)
+- [variable_name] can be only one (lowercase or uppercase) letter (but not "p" or "s" as it is already in list of arithmetic operations)
 - to change variable value use "let [variable_name] = [value];" again
 
 ## Some examples of usage:
